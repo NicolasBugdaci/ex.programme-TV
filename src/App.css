@@ -1,0 +1,89 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 100px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: auto;
+  width: auto;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.M6 {
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 700px;
+}
+
+.block1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.block2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block2 img {
+  border-radius: 4px;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.block3 {
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.type {
+  font-size: 10px;
+}
+
+.time {
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+.duration {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.left-border {
+  border-left: 5px solid red;
+}
+
+p {
+  font-size: 13px;
+}
